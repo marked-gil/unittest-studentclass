@@ -24,3 +24,11 @@ a database connection during tests
     * The patch method we’ve imported can be used as a decorator or a context manager. We’ll use a context manager for our test method.     
     * Note that we’re importing the `student class` at the top of the file and that’s why we use `student.requests.get` to access it.
 
+
+## To Practice on...
+
+Extend the Student Class:
+1. Return a student's start date
+2. Factor in leap years when calculating a student's end date
+3. Display whether a student's been given an extension
+4. Keep track of a student's scores
